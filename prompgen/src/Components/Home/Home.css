@@ -1,0 +1,20 @@
+.started {
+    background-color: #8b7ee0;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    top: 28rem;
+    left: 54rem;
+
+  }
+
+  /* .home-container {
+    background-image: url('../public/main_bg.png');
+    background-size: cover;
+    background-position: center;
+  }
+   */

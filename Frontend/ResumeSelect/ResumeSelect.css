@@ -1,0 +1,120 @@
+.first {
+    box-sizing: border-box;
+    position: absolute;
+    width: 650px;
+    height: 300px;
+    left: 0;
+    top: 309px;
+    border: 15px solid #5463E1;
+    cursor: pointer; 
+  }
+
+  .first > div{
+    text-align: center;
+    position: relative; 
+    top: 6rem;
+  }
+
+  .first p{
+    position: relative;
+    top: -4rem;
+  }
+
+  .first h2{
+    position: relative;
+    top: -1rem;
+  }
+
+  .second>div{
+    text-align: center;
+    position: relative;
+    top: 6rem;
+  }
+   
+  .second {
+    box-sizing: border-box;
+    position: absolute;
+    width: 650px;
+    height: 300px;
+    left: 766px;
+    top: 309px;
+    border: 15px solid #B3BBF8;
+    cursor: pointer;
+  }
+
+  .second p{
+    position: relative;
+    top: -4rem;
+  }
+
+  .second h2{
+    position: relative;
+    top: -1rem;
+  }
+  
+  .main {
+    position: relative;
+    left: 9rem; /* Adjust the value as needed */
+    right: auto; 
+    top: -8rem;
+  }
+
+.next{
+    box-sizing: border-box;
+    position: absolute;
+    width: 297px;
+    height: 89px;
+    left: 70rem;
+    top: 654px;
+    background: #5463E1;
+    box-shadow: 0px 4px 4px #1D116A;
+    border-radius: 34px;
+}
+
+.next>span{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+text-align: center; 
+color: #FFFFFF;
+}
+
+.prev{
+    box-sizing: border-box;
+    position: absolute;
+    width: 297px;
+    height: 89px;
+    left: 20rem;
+    /* left: -30rem; */
+    top: 654px;
+    background: #5463E1;
+    box-shadow: 0px 4px 4px #1D116A;
+    border-radius: 34px;
+}
+
+.prev>span{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.pdf-1{
+  font-size: 3rem;
+  position: relative;
+  top: -2rem;
+}
+.pdf-2{
+  font-size: 3rem;
+  position: relative;
+  top: -2rem;
+}
+
+
+
+
+
+

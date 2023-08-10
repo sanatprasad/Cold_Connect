@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        form {
+            max-width: 300px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .sub {
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            border: none;
+            color: #fff;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .sub:hover {
+            background-color: #45a049;
+        }
+
+        h3 {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        a {
+            display: block;
+            text-align: center;
+            margin-top: 10px;
+            color: #555;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Login Form</h1>
+    <form action="/login" method="post">
+        <input placeholder="Name" name="name" type="text">
+        <br>
+        <input placeholder="Password" name="password" type="password">
+        <br>
+        <input class="sub" type="submit">
+        <h3>Don't have an account?</h3>
+        <a href="/signup">Create a new account</a>
+    </form>
+</body>
+</html>
